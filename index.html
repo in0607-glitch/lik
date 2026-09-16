@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>이인경 AI 리터러시 강사 | AI · 콘텐츠 · 온라인마케팅</title>
+<meta name="description" content="AI 리터러시, 콘텐츠 기획·제작, 온라인마케팅을 교육하는 이인경 강사 공식 랜딩페이지">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800;900&display=swap');
+:root{
+  --ink:#10182c;--muted:#637089;--blue:#315cff;--cyan:#18c7d9;
+  --line:#e8edf5;--paper:#f7f9fc;--white:#fff;--dark:#0c1222;
+  --shadow:0 24px 70px rgba(25,43,80,.12);--radius:28px;
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:'Noto Sans KR',sans-serif;color:var(--ink);background:var(--paper);line-height:1.7}
+a{text-decoration:none;color:inherit}.wrap{max-width:1180px;margin:auto;padding:0 24px}
+header{position:fixed;z-index:100;top:0;left:0;right:0;background:rgba(255,255,255,.82);backdrop-filter:blur(18px);border-bottom:1px solid rgba(232,237,245,.8)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:900;letter-spacing:-.04em;font-size:19px}.brand span{color:var(--blue)}
+nav{display:flex;gap:26px;font-size:14px;font-weight:700;color:#536078}nav a:hover{color:var(--blue)}
+.cta{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:13px 21px;background:var(--ink);color:#fff;font-weight:800;font-size:14px;box-shadow:0 10px 25px rgba(16,24,44,.18)}
+.hero{min-height:800px;padding:150px 0 100px;position:relative;overflow:hidden;background:linear-gradient(135deg,#f8fbff 0%,#eef3ff 55%,#f7fbff 100%)}
+.hero:before,.hero:after{content:"";position:absolute;border-radius:50%;filter:blur(3px);opacity:.55}.hero:before{width:520px;height:520px;background:radial-gradient(circle,#b9d8ff,transparent 65%);right:-130px;top:60px}.hero:after{width:400px;height:400px;background:radial-gradient(circle,#c7f7f5,transparent 65%);left:-180px;bottom:-100px}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:60px;align-items:center;position:relative;z-index:2}
+.eyebrow{display:inline-flex;gap:9px;align-items:center;color:var(--blue);font-weight:900;font-size:14px;letter-spacing:.04em}.dot{width:8px;height:8px;background:var(--cyan);border-radius:50%;box-shadow:0 0 0 7px rgba(24,199,217,.12)}
+h1{font-size:clamp(44px,6vw,76px);line-height:1.1;letter-spacing:-.065em;margin:18px 0 24px;font-weight:900}h1 em{font-style:normal;background:linear-gradient(90deg,var(--blue),#6d56ff);-webkit-background-clip:text;color:transparent}
+.lead{font-size:20px;color:#56647d;max-width:670px}.hero-actions{display:flex;gap:12px;margin-top:34px;flex-wrap:wrap}.ghost{background:#fff;color:var(--ink);border:1px solid var(--line);box-shadow:var(--shadow)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:48px}.stat{padding:18px 20px;background:rgba(255,255,255,.7);border:1px solid rgba(255,255,255,.95);border-radius:18px;box-shadow:0 12px 35px rgba(34,63,116,.08)}.stat b{display:block;font-size:14px}.stat span{color:var(--muted);font-size:12px}
+.visual{position:relative;min-height:510px}.orb{position:absolute;inset:55px 20px 30px 20px;border-radius:42px;background:linear-gradient(145deg,#101b39,#172a58);box-shadow:0 35px 90px rgba(30,49,100,.28);overflow:hidden}.orb:before{content:"";position:absolute;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,#3b6cff,transparent 62%);right:-110px;top:-120px;opacity:.7}.orb:after{content:"";position:absolute;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,#16d5d5,transparent 62%);left:-130px;bottom:-120px;opacity:.45}
+.card3d{position:absolute;z-index:3;background:rgba(255,255,255,.94);border:1px solid rgba(255,255,255,.7);border-radius:24px;box-shadow:0 24px 55px rgba(0,0,0,.2);padding:25px}.card-a{left:-4px;top:30px;width:225px}.card-b{right:-5px;bottom:35px;width:245px}.mini{font-size:11px;color:#6c7890;font-weight:800}.card3d strong{display:block;font-size:21px;line-height:1.35;margin-top:6px}.chip{display:inline-block;margin-top:15px;padding:6px 10px;border-radius:999px;background:#eef3ff;color:var(--blue);font-size:11px;font-weight:800}
+.core{position:absolute;z-index:2;left:50%;top:50%;transform:translate(-50%,-50%);width:220px;height:220px;border-radius:50%;display:grid;place-items:center;text-align:center;color:#fff;border:1px solid rgba(255,255,255,.25);background:radial-gradient(circle at 35% 30%,#6d86ff,#1c326e 58%,#101a38);box-shadow:inset 0 0 50px rgba(255,255,255,.12),0 0 80px rgba(73,107,255,.3)}.core b{font-size:24px;line-height:1.35}.core small{display:block;font-size:11px;color:#c8d4f8;margin-top:5px}
+section{padding:110px 0}.section-head{max-width:760px;margin-bottom:48px}.kicker{font-size:13px;color:var(--blue);font-weight:900;letter-spacing:.12em}.section-head h2{font-size:clamp(32px,4vw,50px);letter-spacing:-.055em;line-height:1.2;margin:10px 0 15px}.section-head p{color:var(--muted);font-size:17px;margin:0}
+.triple{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.feature{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:34px;box-shadow:0 15px 50px rgba(31,48,82,.07);position:relative;overflow:hidden;transition:.25s}.feature:hover{transform:translateY(-7px);box-shadow:var(--shadow)}.num{font-size:12px;color:#8a96aa;font-weight:900}.feature h3{font-size:25px;letter-spacing:-.04em;margin:16px 0 9px}.feature p{color:var(--muted);font-size:14px}.tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:20px}.tag{font-size:11px;padding:6px 9px;border-radius:8px;background:#f2f5fa;color:#4e5b73;font-weight:700}
+.dark{background:var(--dark);color:#fff}.dark .section-head p{color:#aab5cc}.dark .section-head h2{color:#fff}.program{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.pbox{border:1px solid rgba(255,255,255,.12);background:linear-gradient(145deg,rgba(255,255,255,.09),rgba(255,255,255,.03));border-radius:25px;padding:30px;min-height:310px;box-shadow:inset 0 1px rgba(255,255,255,.08)}.pbox h3{font-size:24px;margin:10px 0}.pbox p{color:#b7c0d3;font-size:14px}.pbox ul{padding-left:18px;color:#dce3f0;font-size:13px}.badge{display:inline-block;border:1px solid rgba(255,255,255,.18);padding:5px 9px;border-radius:999px;font-size:10px;color:#cbd6ef}
+.audience{display:grid;grid-template-columns:repeat(4,1fr);gap:13px}.aud{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 10px 30px rgba(31,48,82,.06)}.aud b{font-size:16px}.aud p{font-size:12px;color:var(--muted);margin:6px 0 0}
+.method{display:grid;grid-template-columns:1fr 1.2fr;gap:60px;align-items:center}.steps{display:grid;gap:13px}.step{display:grid;grid-template-columns:52px 1fr;gap:18px;align-items:center;background:#fff;border:1px solid var(--line);padding:18px;border-radius:18px}.step i{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;background:#eef3ff;color:var(--blue);font-style:normal;font-weight:900}.step b{display:block}.step span{font-size:12px;color:var(--muted)}
+.proof{background:linear-gradient(135deg,#edf3ff,#f8fbff)}.proof-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.proof-card{background:#fff;border-radius:24px;padding:32px;border:1px solid var(--line);box-shadow:var(--shadow)}.quote{font-size:19px;font-weight:700;letter-spacing:-.03em}.proof-card small{color:#7a879d}
+.contact{background:linear-gradient(135deg,#14244b,#203e8d);color:#fff;text-align:center}.contact h2{font-size:clamp(34px,5vw,58px);letter-spacing:-.06em;line-height:1.2;margin:12px 0}.contact p{color:#c6d1ea}.contact .cta{background:#fff;color:#14244b;margin-top:20px}
+footer{background:#0a1020;color:#93a0b8;padding:35px 0;font-size:12px}.footer-in{display:flex;justify-content:space-between;gap:20px;align-items:center}
+#topBtn{position:fixed;right:22px;bottom:22px;z-index:110;width:52px;height:52px;border:0;border-radius:17px;background:#fff;color:var(--ink);font-weight:900;box-shadow:0 15px 35px rgba(17,31,62,.2);cursor:pointer;opacity:0;transform:translateY(15px);pointer-events:none;transition:.25s}#topBtn.show{opacity:1;transform:none;pointer-events:auto}#topBtn:hover{background:var(--blue);color:#fff}
+@media(max-width:900px){nav{display:none}.hero-grid,.method,.proof-grid{grid-template-columns:1fr}.hero{padding-top:125px}.visual{min-height:430px}.orb{inset:30px 15px}.triple,.program{grid-template-columns:1fr}.audience{grid-template-columns:repeat(2,1fr)}section{padding:80px 0}}
+@media(max-width:560px){.wrap{padding:0 18px}.hero{min-height:auto;padding-bottom:70px}h1{font-size:43px}.lead{font-size:17px}.stats{grid-template-columns:1fr}.visual{min-height:370px}.orb{inset:25px 0}.core{width:160px;height:160px}.core b{font-size:19px}.card-a{left:-4px;top:15px;width:180px;padding:18px}.card-b{right:-4px;bottom:20px;width:190px;padding:18px}.card3d strong{font-size:17px}.audience{grid-template-columns:1fr}.footer-in{display:block}.footer-in div+div{margin-top:10px}}
+</style>
+</head>
+<body id="top">
+<header><div class="wrap nav">
+  <a class="brand" href="#top">이인경 <span>AI Literacy</span></a>
+  <nav><a href="#fields">교육분야</a><a href="#programs">프로그램</a><a href="#audience">교육대상</a><a href="#method">교육방식</a><a href="#contact">강의문의</a></nav>
+  <a class="cta" href="#contact">강의 문의</a>
+</div></header>
+
+<main>
+<section class="hero">
+<div class="wrap hero-grid">
+<div>
+  <div class="eyebrow"><i class="dot"></i> AI LITERACY · CONTENT · MARKETING</div>
+  <h1>AI를 배우는 것을 넘어,<br><em>AI로 일하고 만들고</em><br>성장하는 방법.</h1>
+  <p class="lead">이인경 AI 리터러시 강사는 AI 인공지능, 콘텐츠 기획·제작, 온라인마케팅을 연결해 교육생이 직접 실습하고 현장에서 활용할 수 있는 실전형 교육을 제공합니다.</p>
+  <div class="hero-actions"><a class="cta" href="#programs">교육 프로그램 보기</a><a class="cta ghost" href="#contact">맞춤 교육 문의</a></div>
+  <div class="stats"><div class="stat"><b>AI 인공지능</b><span>리터러시 · 생성형 AI · 업무 활용</span></div><div class="stat"><b>콘텐츠 기획·제작</b><span>이미지 · 영상 · SNS 콘텐츠</span></div><div class="stat"><b>온라인마케팅</b><span>콘텐츠 · SNS · 온라인 홍보</span></div></div>
+</div>
+<div class="visual">
+  <div class="orb"></div>
+  <div class="core"><div><b>AI<br>Literacy</b><small>이해 · 실습 · 적용</small></div></div>
+  <div class="card3d card-a"><span class="mini">EDUCATION</span><strong>어렵지 않게,<br>직접 해보는 AI</strong><span class="chip">Hands-on</span></div>
+  <div class="card3d card-b"><span class="mini">CONNECTED SKILLS</span><strong>AI × 콘텐츠<br>× 마케팅</strong><span class="chip">Practical</span></div>
+</div>
+</div>
+</section>
+
+<section id="fields">
+<div class="wrap">
+<div class="section-head"><div class="kicker">CORE EDUCATION</div><h2>세 가지 전문성을<br>하나의 실전 역량으로 연결합니다.</h2><p>AI를 배우고, 콘텐츠를 만들고, 온라인에서 알리는 것까지. 교육 목적과 대상에 맞춰 필요한 역량을 설계합니다.</p></div>
+<div class="triple">
+<article class="feature"><span class="num">01 / AI</span><h3>AI · 인공지능</h3><p>생성형 AI를 이해하고 실제 업무에 활용할 수 있도록 AI 리터러시부터 실무 활용까지 단계적으로 교육합니다.</p><div class="tags"><span class="tag">AI 리터러시</span><span class="tag">ChatGPT</span><span class="tag">프롬프트</span><span class="tag">업무 활용</span><span class="tag">AI 윤리</span></div></article>
+<article class="feature"><span class="num">02 / CONTENT</span><h3>콘텐츠 기획·제작</h3><p>아이디어를 콘텐츠로 구체화하고 AI 도구를 활용해 이미지·영상·SNS 콘텐츠까지 직접 제작합니다.</p><div class="tags"><span class="tag">콘텐츠 기획</span><span class="tag">SNS</span><span class="tag">이미지</span><span class="tag">영상</span><span class="tag">숏폼</span></div></article>
+<article class="feature"><span class="num">03 / MARKETING</span><h3>온라인마케팅</h3><p>만든 콘텐츠가 고객에게 닿을 수 있도록 온라인 홍보와 콘텐츠 마케팅의 핵심을 실무 중심으로 교육합니다.</p><div class="tags"><span class="tag">SNS 마케팅</span><span class="tag">블로그</span><span class="tag">콘텐츠 마케팅</span><span class="tag">온라인 홍보</span></div></article>
+</div>
+</div>
+</section>
+
+<section id="programs" class="dark">
+<div class="wrap">
+<div class="section-head"><div class="kicker">PROGRAMS</div><h2>기관의 목적에 맞춰<br>실습형 프로그램으로 설계합니다.</h2><p>특강부터 단기·다회차 과정까지 교육생의 수준과 업무 환경을 고려해 커리큘럼을 구성합니다.</p></div>
+<div class="program">
+<article class="pbox"><span class="badge">AI · WORK</span><h3>생성형 AI로 일하는 법</h3><p>AI를 단순히 사용하는 것을 넘어 자료조사, 아이디어, 문서작성 등 실제 업무에 적용합니다.</p><ul><li>생성형 AI 이해</li><li>질문과 프롬프트 설계</li><li>자료조사·요약·기획</li><li>업무 적용 실습</li></ul></article>
+<article class="pbox"><span class="badge">AI · CONTENT</span><h3>AI로 만드는 콘텐츠</h3><p>기획에서 제작까지 AI를 활용해 교육생이 직접 결과물을 완성합니다.</p><ul><li>콘텐츠 주제·기획</li><li>AI 글쓰기</li><li>이미지·영상 제작</li><li>SNS 콘텐츠 실습</li></ul></article>
+<article class="pbox"><span class="badge">AI · MARKETING</span><h3>소상공인을 위한 AI 마케팅</h3><p>고객을 이해하고 콘텐츠를 만들며 온라인에서 사업을 알리는 흐름을 익힙니다.</p><ul><li>고객·타깃 분석</li><li>홍보 콘텐츠 기획</li><li>SNS·블로그 활용</li><li>온라인 홍보 전략</li></ul></article>
+</div>
+</div>
+</section>
+
+<section id="audience">
+<div class="wrap">
+<div class="section-head"><div class="kicker">FOR WHOM</div><h2>교육 대상의 눈높이에 맞춰<br>내용과 난이도를 조정합니다.</h2><p>기업, 공공기관, 학교, 소상공인 등 다양한 현장에서 활용할 수 있도록 맞춤형으로 구성합니다.</p></div>
+<div class="audience">
+<div class="aud"><b>소상공인 · 자영업자</b><p>AI 활용 · 콘텐츠 · 온라인 홍보</p></div>
+<div class="aud"><b>중소기업 · 기업</b><p>임직원 AI 역량 · 업무 생산성</p></div>
+<div class="aud"><b>공공기관 · 공무원</b><p>AI 업무 활용 · 기획 · 홍보</p></div>
+<div class="aud"><b>청소년</b><p>AI 리터러시 · 콘텐츠 · 진로</p></div>
+<div class="aud"><b>교사 · 사서교사</b><p>AI 리터러시 · 정보·미디어 교육</p></div>
+<div class="aud"><b>학교 · 교육기관</b><p>교원·학생 맞춤형 AI 교육</p></div>
+<div class="aud"><b>기관 맞춤 과정</b><p>목적·인원·시간에 맞춘 커리큘럼</p></div>
+<div class="aud"><b>워크숍 · 특강</b><p>2시간 · 반일 · 1일 · 다회차</p></div>
+</div>
+</div>
+</section>
+
+<section id="method">
+<div class="wrap method">
+<div class="section-head"><div class="kicker">TEACHING METHOD</div><h2>듣는 교육에서<br>현장 적용까지.</h2><p>교육생이 직접 해보고 결과물을 만들어 자신의 업무와 사업에 연결할 수 있도록 설계합니다.</p></div>
+<div class="steps">
+<div class="step"><i>01</i><div><b>이해</b><span>AI와 디지털 기술을 쉽고 명확하게 이해합니다.</span></div></div>
+<div class="step"><i>02</i><div><b>실습</b><span>교육생이 직접 AI 도구를 사용하며 익힙니다.</span></div></div>
+<div class="step"><i>03</i><div><b>제작</b><span>문서·콘텐츠·이미지·영상 등 결과물을 만듭니다.</span></div></div>
+<div class="step"><i>04</i><div><b>적용</b><span>자신의 업무와 사업에 적용할 방법을 정리합니다.</span></div></div>
+</div>
+</div>
+</section>
+
+<section class="proof">
+<div class="wrap">
+<div class="section-head"><div class="kicker">TRUST & PORTFOLIO</div><h2>교육담당자가 확인할 수 있는<br>강사 전문성과 현장 경험.</h2><p>실제 강의 실적, 현장 사진, 교육 후기, 강의계획서 등을 한 곳에 정리해 신뢰도 높은 섭외 경험을 제공합니다.</p></div>
+<div class="proof-grid">
+<div class="proof-card"><div class="quote">“AI를 배우는 것에서 끝나지 않고, 우리 기관의 업무와 교육 현장에 적용할 수 있는 교육을 지향합니다.”</div><br><small>이인경 · AI 리터러시 강사</small></div>
+<div class="proof-card"><b>강의 제안 자료</b><p>강사 프로필 · 교육 프로그램 · 대상별 강의계획서 · 맞춤형 교육 제안</p><a class="cta" href="#contact">자료 및 강의 문의 →</a></div>
+</div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<div class="wrap">
+<div class="kicker">LECTURE INQUIRY</div>
+<h2>우리 기관에 맞는<br>AI 교육을 시작해보세요.</h2>
+<p>교육 대상 · 인원 · 일정 · 교육 목적을 알려주시면 맞춤형 프로그램을 제안합니다.</p>
+<a class="cta" href="mailto:contact@example.com?subject=이인경 강사 강의 문의">강의 문의하기</a>
+</div>
+</section>
+</main>
+
+<footer><div class="wrap footer-in"><div><b style="color:#fff">이인경 AI 리터러시 강사</b> · AI · 콘텐츠 · 온라인마케팅</div><div>본 페이지는 반응형 랜딩페이지 템플릿입니다. 연락처와 실적 정보는 실제 정보로 교체해 주세요.</div></div></footer>
+<button id="topBtn" aria-label="맨위로">↑<br><small style="font-size:9px">맨위</small></button>
+<script>
+const btn=document.getElementById('topBtn');
+window.addEventListener('scroll',()=>btn.classList.toggle('show',window.scrollY>450));
+btn.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+</script>
+</body>
+</html>
